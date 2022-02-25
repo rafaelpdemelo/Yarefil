@@ -1,0 +1,17 @@
+div.code_div{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    background-color: #e0e0de;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+span.code_span{
+    padding: 3px 8px;
+    background-color: #e0e0de;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: inline-block;
+    border-radius: 3px;
+}
