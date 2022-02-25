@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header img {
+    width: 50px;
+} 
+
+.commitsection {
+    justify-content: center;
+    display: flex;
+}
+.descrição {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.descrição code {
+    color: red;
+    font-family: monospace;
+} 
+
