@@ -1,5 +1,5 @@
 # YAREFIL
-## Git: O Essêncial
+## Git: O Essencial
 
 ## Instrucao para os devs<br>
 
