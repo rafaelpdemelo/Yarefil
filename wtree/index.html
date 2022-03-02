@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secao sobre Working Trees</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/global/styles.css">
+</head>
+<body>
+    <header>
+        <img src="global/assets/logogit.png" alt="" srcset="">
+    </header>
+
+    <main>
+        <h1>Git Working Trees</h1>
+        <p>
+            A chamada 
+            <b>Working Tree</b> 
+            (ou Working Directory) é nada menos do que o diretório dos arquivos que você está atualmente trabalhando em. Para entender bem isso, é útil também entender ainda mais dois conceitos: staging area e o repositorio em si.
+        </p>
+        <img src="assets/wd.jpg" alt="">
+        <p>
+            O 
+            <b>Repositorio</b>
+            (repo) é o container que salva todas as mudanças já feitas nos arquivos do seu projeto (vide git log para ver como acessar o histórico de mudanças.)
+        </p>
+        <p>
+            A 
+            <b>Stagin Area</b>
+             é onde commits são "preparados", onde acontece a comparação entre os arquivos na sua Working Tree e os do repo.
+        </p>
+        <p></p>
+        <h2>Estados de um arquivo</h2>
+        <p>Um arquivo no git pode estar em três estados:</p> 
+        <ul>
+            <li>Modified: Mudança apenas na Working Tree</li>
+            <li>Staged: Arquivos foram adicionados e estão na Staging Area</li>
+            <li>Commited: Mudanças salvas no Repositorio</li>
+        </ul>
+        <img src="assets/tracking.png" alt="">
+    </main>
+</body>
+
